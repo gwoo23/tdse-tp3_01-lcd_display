@@ -1,0 +1,9 @@
+En 'display.cpp', primero se declaran variables para congifigurar el display. También se definen
+los pines como variables de salidas digitales.
+La función 'displayInit' inicializa la configuración de display. 
+La función 'displayCharPositionWrite' setea la posición que se utiliza para mostrar los datos.
+LA función 'displayStringWrite' define qué se escribe en dichas posiciones.
+
+En 'display.h', se declara el tipo de dato 'displayConnection_t' que clasifica en dos cantidades de 
+bits. 'display_t' es un tipo de dato que posee un único campo del tipo 'displayConnection_t'.
+
